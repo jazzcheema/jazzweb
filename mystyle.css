@@ -1,0 +1,457 @@
+@font-face {
+  font-family: myFont;
+  src:url(ASThermalRegular.otf)
+}
+
+@font-face {
+  font-family: myFont2;
+  src:url(ASThermalXXWideRegular.otf)
+}
+
+@font-face {
+  font-family: sleekFont;
+  src:url(TT-Norms-Pro-Normal.otf)
+}
+
+@font-face {
+  font-family: sleekFont2;
+  src:url(TT-Norms-Pro-Thin.otf)
+}
+
+@font-face {
+  font-family: sleekFont3;
+  src:url(TT-Norms-Pro-Black.otf)
+}
+
+@font-face {
+  font-family: sleekFont4;
+  src:url(TT-Norms-Pro-Bold.otf)
+}
+
+@font-face {
+  font-family: sleekFont5;
+  src:url(TT-Norms-Pro-Light.otf)
+}
+
+@font-face {
+  font-family: sleekFont6;
+  src:url(TT-Norms-Pro-ExtraLight.otf)
+}
+
+@font-face {
+  font-family: sleekFont7;
+  src:url(TT-Norms-Pro-Light-Italic.otf)
+}
+
+@font-face {
+  font-family: myFont3;
+  src:url(ASThermalXXXWideItalic.otf)
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: auto;
+  flex-direction: column;
+  color: #0f0e12;
+
+}
+
+.borderbox_bottom {
+  font-family: myFont2;
+  text-align: center;
+  padding-top: 70px;
+  display: absolute;
+  color: rgb(0, 76, 255);
+}
+
+.borderbox_bottom2 {
+  font-family: myFont2;
+  text-align: center;
+  padding-top: 10px;
+  display: absolute;
+  color: rgb(0, 76, 255);
+}
+
+.firstName {
+  /* padding-top: 100px; */
+  font-family: sleekFont2;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  stroke: none;
+  display: relative;
+  font-size: 50px;
+  padding-bottom: 50px;
+  animation: pulse 4s infinite;
+}
+#containerInfo {
+flex-direction: column;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+#jobTitle{
+
+font-family: sleekFont6;
+font-size: 20px;
+position: absolute;
+
+}
+.footer {
+  font-family: sleekFont2;
+  color: rgb(0, 0, 0);
+  font-size: small;
+position: absolute;
+  left:0px;
+  bottom: 2px;
+  height:30px;
+  width:100%;
+  right: 0px;
+text-align: center;
+clear:both;
+}
+
+#buttonsAndLinks {
+flex-direction: row;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#buttonsAndLinks2 {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  }
+
+.arrows {
+  font-family: myFont3;
+  font-size: 25px;
+  line-height: 7px;
+  display: block;
+  padding-right: 10px;
+  flex-direction: column;
+
+}
+
+.arrows > .arrow1{
+  color: green;
+}
+
+.arrows > .arrow2{
+  color: green;
+}
+
+.arrows > .arrow3{
+  color: green;
+}
+
+.buttons {
+/* position: absolute; */
+font-size: x-large;
+display: absolute;
+flex-direction: column;
+top: px;
+right: px;
+align-items: center;
+justify-content: center;
+padding: px;
+font-family: sleekFont2;
+list-style: none;
+color: #e5e5e5;
+}
+
+.buttons2 {
+  /* position: absolute; */
+  font-size: x-large;
+  display: absolute;
+  flex-direction: column;
+  top: px;
+  right: px;
+  align-items: center;
+  justify-content: center;
+  font-family: sleekFont2;
+  list-style: none;
+  color: #e5e5e5;
+  }
+
+#aboutLink, #projectsLink, #contactLink, #homeLink {
+  color: #e5e5e5;
+  text-decoration: none;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .4s ease-in-out, box-shadow .5s ease-in-out;
+  box-shadow: inset 0 0 0 0 #000000;
+}
+#aboutLink:hover {
+  color: #e5e5e5;
+box-shadow: inset 100px 0 0 0 green;
+
+}
+#projectsLink:hover {
+  color: #e5e5e5;
+  box-shadow: inset 100px 0 0 0 green;
+  }
+
+  #contactLink:hover {
+    color: #e5e5e5;
+    box-shadow: inset 100px 0 0 0 green;
+    }
+
+    #homeLink:hover {
+      color: #e5e5e5;
+      box-shadow: inset 100px 0 0 0 green;
+      }
+
+img {
+  margin-top: 70px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 562.5px;
+height: 703.25px;
+border-radius: 10px;
+margin-bottom: 0;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.filmTitle{
+  font-family: sleekFont2;
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+  font-weight: 1000px;
+  font-size: 60px;
+}
+
+.topInfo{
+  font-family: sleekFont6;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.top1{
+display: inline-block;
+vertical-align: text-top;
+}
+.top2{
+  display: inline-block;
+  vertical-align: text-top;
+}
+.top3{
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+#myInfoPage{
+  display: flex;
+  justify-content: center;
+margin-top: 30px;
+}
+
+.info1 {
+
+display: inline-block;
+width: 30%;
+height: 1%;
+font-family: sleekFont5;
+margin-left: 3%;
+font-size: 25px;
+
+}
+
+.info2 {
+
+  display: inline-block;
+  width: 30%;
+  height: 1%;
+  font-family: sleekFont5;
+  margin-left:1.5%;
+  font-size: 25px;
+  vertical-align: top;
+  }
+
+  .info3 {
+
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    height: 1%;
+    font-family: sleekFont5;
+    margin-left:1.5%;
+    font-size: 25px;
+
+    }
+.resumeSection{
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+list-style: none;
+margin-top: -25px;
+}
+
+.resumeFile{
+  font-family: myFont2;
+  color: green;
+  font-size: 200px;
+  display: relative;
+  align-items: center;
+  justify-content: center;
+text-decoration: none ;
+box-shadow: none ;
+list-style: none;
+margin-top: -20px;
+}
+
+
+
+  a[href="resume.html"]{
+  text-decoration: none;
+  color: green;
+}
+
+a[href="resume.html"]:hover{
+  text-decoration: none;
+  color: rgb(28, 179, 28);
+}
+
+.resumeFile:hover{
+ color: rgb(17, 179, 17);
+ font-family: myFont;
+ box-shadow: none;
+ text-decoration: none;
+}
+
+.resumeCaption{
+  font-family: sleekFont;
+  position: absolute;
+  vertical-align: middle;
+  text-align: center;
+  bottom: 445px;
+  margin-left: auto;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.resumeContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jResumeDescription{
+  font-family: sleekFont6;
+  margin-top: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+}
+
+#jazzResume {
+  display: relative;
+  justify-content: center;
+  margin-top: 60px;
+  align-items: center;
+  width: 800px;
+  /* height: 1649.5px; */
+  height:auto;
+}
+
+#shakespeare{
+  list-style: none;
+  font-family: sleekFont2;
+  font-weight: 1000px;
+  font-size: 60px;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+a[href="another test.html"]{
+text-decoration: none;
+color: black;
+}
+a[href="another test.html"]:hover{
+  text-decoration: none;
+  font-family: sleekFont7;
+  font-weight: 100;
+  color: rgb(27, 158, 27);
+  }
+
+.projectsList{
+  margin-top: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.romanOne{
+  font-family: myFont2;
+  font-size: 60px;
+  vertical-align: baseline;
+  color: green;
+  margin-bottom: 70px;
+  margin-right: 20px;
+}
+
+.contactInfo{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 400px;
+}
+
+#signOff{
+  font-family: sleekFont2;
+  font-size: 60px;
+
+}
+
+#email{
+  font-family: sleekFont5;
+  font-size: 40px;
+  display:inline-block;
+  text-decoration: none;
+}
+a[href="mailto:jaskamalc@gmail.com"]{
+  color: black;
+  font-size:50px;
+}
+
+a[href="mailto:jaskamalc@gmail.com"]:hover{
+  color: green;
+  font-size:50px;
+  font-family: sleekFont7;
+}
+
+.phone{
+  font-family: sleekFont5;
+  display:inline-block;
+  animation: pulse 1ms infinite;
+  font-size: 30px ;
+}
+
+.contactInfo2 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
