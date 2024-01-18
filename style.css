@@ -32,9 +32,8 @@
   src:url(TT-Norms-Pro-Bold.otf)
 }
 
-h1, h2{
-  color: red
-}
+
+
 p, ul, #section2, pre{
   color: rgb(27, 166, 27);
 
@@ -73,6 +72,8 @@ h1 {
 display: flex;
 justify-content: center;
 align-items: bottom;
+margin-top: -50px;
+color: red
 
 }
 /* ascii art */

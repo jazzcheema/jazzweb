@@ -80,7 +80,7 @@ body {
   stroke: none;
   display: relative;
   font-size: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   animation: pulse 4s infinite;
 }
 #containerInfo {
@@ -93,6 +93,7 @@ align-items: center;
 #jobTitle{
 
 font-family: sleekFont6;
+padding-top: 30px;
 font-size: 20px;
 position: absolute;
 
@@ -101,7 +102,7 @@ position: absolute;
   font-family: sleekFont2;
   color: rgb(0, 0, 0);
   font-size: small;
-position: absolute;
+bottom:0;
   left:0px;
   bottom: 2px;
   height:30px;
@@ -110,6 +111,13 @@ position: absolute;
 text-align: center;
 clear:both;
 }
+
+#buttonsAndLinks0 {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 
 #buttonsAndLinks {
 flex-direction: row;
@@ -125,6 +133,16 @@ justify-content: center;
   justify-content: center;
   margin-top: 90px;
   }
+
+  #buttonsAndLinks3 {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: px;
+    }
+
+
 
 .arrows {
   font-family: myFont3;
@@ -242,6 +260,7 @@ margin-bottom: 0;
 .topInfo{
   font-family: sleekFont6;
   margin-top: 120px;
+  margin-left: 50px;
   display: flex;
   justify-content: space-around;
 
@@ -304,7 +323,7 @@ justify-content: center;
 align-items: center;
 text-decoration: none;
 list-style: none;
-margin-top: -25px;
+margin-top: -65px;
 }
 
 .resumeFile{
@@ -344,7 +363,7 @@ a[href="resume.html"]:hover{
   position: absolute;
   vertical-align: middle;
   text-align: center;
-  bottom: 445px;
+  margin-top: 175px ;
   margin-left: auto;
   margin-right: 30px;
   text-decoration: none;
@@ -395,7 +414,7 @@ a[href="another test.html"]:hover{
   }
 
 .projectsList{
-  margin-top: 400px;
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -415,13 +434,14 @@ a[href="another test.html"]:hover{
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: column;
-margin-top: 400px;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 150px;
 }
 
 #signOff{
   font-family: sleekFont2;
-  font-size: 60px;
+  font-size: 50px;
 
 }
 
@@ -450,7 +470,7 @@ a[href="mailto:jaskamalc@gmail.com"]:hover{
 }
 
 .contactInfo2 {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
