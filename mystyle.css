@@ -88,6 +88,7 @@ flex-direction: column;
 justify-content: center;
 display: flex;
 align-items: center;
+margin-top: -20px;
 }
 
 #jobTitle{
@@ -96,7 +97,7 @@ font-family: sleekFont6;
 padding-top: 30px;
 font-size: 20px;
 position: absolute;
-
+margin-left: 15px;
 }
 .footer {
   font-family: sleekFont2;
@@ -117,6 +118,9 @@ clear:both;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -40px;
+  margin-right: 30px;
+  padding-bottom: 20px;
   }
 
 #buttonsAndLinks {
@@ -124,6 +128,7 @@ flex-direction: row;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-right: 35px;
 }
 
 #buttonsAndLinks2 {
@@ -132,6 +137,12 @@ justify-content: center;
   align-items: center;
   justify-content: center;
   margin-top: 90px;
+  margin-right: 20px;
+  }
+
+  .aboutPage5k #buttonsAndLinks2 {
+    margin-top: 45px;
+    padding-bottom: 25px;
   }
 
   #buttonsAndLinks3 {
@@ -139,7 +150,7 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: px;
+    margin-right: 35px;
     }
 
 
@@ -224,7 +235,7 @@ box-shadow: inset 100px 0 0 0 green;
       }
 
 img {
-  margin-top: 70px;
+  margin-top: 40px;
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -324,6 +335,7 @@ align-items: center;
 text-decoration: none;
 list-style: none;
 margin-top: -65px;
+margin-left: 25px;
 }
 
 .resumeFile{
@@ -474,4 +486,331 @@ a[href="mailto:jaskamalc@gmail.com"]:hover{
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+/* my big monitor 5k reso */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+  #buttonsAndLinks0{
+    padding-right: 5px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  .footer{
+    margin-top: 170px;
+    margin-left: 5px;
+  }
+  .resumePage5k #buttonsAndLinks{
+    margin-top: -20px;
+  }
+  .resumePage5k .footer {
+    margin-top: 60px;
+  }
+  .aboutPage5k .footer {
+    margin-top: 150px;
+    margin-left: 25px;
+  }
+  .aboutPage5k #buttonsAndLinks2{
+    padding-right: 0px;
+    margin-top: 120px;
+  }
+  .aboutPage5k .resumeSection{
+    margin-top: 40px;
+  }
+  .projectsPage5k .footer{
+    margin-top: 160px;
+  }
+  .projectsPage5k #buttonsAndLinks3{
+    margin-top: 300px;
+    margin-right: 50px;
+  }
+  .projectsPage5k .projectsList{
+    margin-top: 300px;
+  }
+.contactPage5k .footer {
+  margin-top: 210px;
+}
+.contactPage5k #buttonsAndLinks2 {
+  margin-top: 200px;
+  margin-right: 70px;
+}
+.contactPage5k .contactInfo {
+  margin-top: 300px;
+}
+.contactPage5k #signOff{
+  font-size: 70px;
+}
+.homePage5k #buttonsAndLinks0{
+  margin-top: 50px;
+}
+}
+
+
+
+/* 2xl my laptop actually*/
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+
+
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  #buttonsAndLinks0{
+    padding-left: 100px;
+    margin-bottom: 50px;
+  }
+}
+
+/* lg my laptop*/
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  .footer{
+    margin-top: 40px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs phone*/
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+
+img {
+  margin-top: 40px;
+display: flex;
+justify-content: center;
+align-content: center;
+margin-left: auto;
+margin-right: auto;
+width: 281.25px;
+height: auto;
+}
+
+  .firstName {
+    text-align: center;
+    white-space: nowrap;
+    display: relative;
+    font-size: 40px;
+    padding-bottom: 10px;
+    animation: pulse 4s infinite;
+    margin-right: 0px;
+  }
+  #containerInfo {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+  }
+
+  #buttonsAndLinks0{
+    margin-right: 100px;
+    padding-bottom: 60px;
+    margin-top: 30px;
+  }
+
+  .homePage5k .footer{
+    margin-left: -30px;
+    margin-top: 50px;
+  }
+
+  #jobTitle{
+
+  font-family: sleekFont6;
+  padding-top: 30px;
+  font-size: 20px;
+  position: absolute;
+  padding-top: 40px;
+
+  }
+  .footer {
+    padding-left: 40px;
+    margin-top: 120px;
+  }
+  .aboutPage5k .top1 {
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -50px;
+    margin-left: 110px;
+    z-index: 1;
+  }
+  .aboutPage5k .top2 {
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 450px;
+    margin-left: 80px;
+    z-index: 1;
+  }
+  .aboutPage5k .top3 {
+
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 75px;
+    margin-top: 400px;
+  }
+  .aboutPage5k .topInfo {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutPage5k .info1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  font-size: 1.5rem;
+  margin-top: -1150px;
+  }
+  .aboutPage5k .info2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    margin-top: -275px;
+  }
+  .aboutPage5k .info3{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    margin-top: 115px;
+  }
+  .aboutPage5k #myInfoPage{
+    margin-top: -100px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .aboutPage5k .resumeSection{
+    margin-top:30px;
+  }
+  .aboutPage5k .footer {
+    margin-left: -35px;
+    margin-top: -20px;
+    padding-top: 30px;
+  }
+  .aboutPage5k .filmTitle {
+    font-size: 40px;
+    margin-top: 70px;
+  }
+  .projectsPage5k #shakespeare {
+    font-size: 25px;
+    white-space: nowrap;
+  }
+  .projectsPage5k .footer {
+    margin-left: -25px;
+    margin-top: 105px;
+  }
+  .projectsPage5k #buttonsAndLinks3{
+    margin-left: 30px;
+  }
+  .contactPage5k #signOff{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  .contactPage5k .footer {
+    margin-top: 25px;
+    margin-left: -40px;
+  }
+  .contactPage5k #email{
+    font-size: 30px;
+  }
+  .contactPage5k .phone{
+    font-size: 25px;
+  }
+  .resumePage5k #jazzResume{
+    width: 375px;
+    height: auto ;
+  }
+  .resumePage5k .jResumeDescription {
+    font-size: 10px;
+  }
+  .resumePage5k #buttonsAndLinks{
+    margin-top: 40px;
+  }
+  .resumePage5k .footer{
+    margin-left: -30px;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 475px;
+  }
+
+  #jobTitle{
+
+    font-family: sleekFont6;
+    padding-top: 30px;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 100px;
+}
+#containerInfo {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+  }
+  .firstName {
+    text-align: center;
+line-height: 50px;
+
+    display: inline;
+    font-size: 50px;
+    padding-bottom: 10px;
+    animation: pulse 4s infinite;
+    white-space: nowrap;
+  }
+  #jobTitle{
+
+    font-family: sleekFont6;
+    padding-top: 30px;
+    font-size: 20px;
+    position: absolute;
+    padding-top: 70px;
+}
+
+#buttonsAndLinks0 {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 200px;
+  }
+  .footer {
+padding-left: 130px;
+  }
 }
