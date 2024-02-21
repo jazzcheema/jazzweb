@@ -1,0 +1,159 @@
+
+@font-face {
+  font-family: lightFont;
+  src: url(TT-Norms-Pro-Light.ttf);
+}
+
+@font-face {
+  font-family: normalFont;
+  src: url(TT-Norms-Pro-Normal.ttf);
+}
+
+@font-face {
+  font-family: myFont3;
+  src:url(ASThermalXXXWideItalic.otf)
+}
+
+@font-face {
+  font-family: sleekFont2;
+  src:url(TT-Norms-Pro-Thin.otf)
+}
+p, ul, #section2, pre{
+  color: rgb(27, 166, 27);
+
+}
+
+h1{
+  margin: 20px;
+  text-align: center;
+  font-family: normalFont;
+  animation: flash 5s infinite;
+}
+
+header{
+  text-align: center;
+}
+
+#StartButton{
+  text-align: center;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: lightFont;
+}
+
+.gameContainer{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 400px;
+}
+
+#loadingHead{
+  height: 400px;
+  width: auto;
+  mix-blend-mode: exclusion;
+  text-align: center;
+  margin-top: 110px;
+}
+
+#LoadingSpinner{
+  margin-top: 20px;
+  text-align: center;
+}
+
+th{
+text-transform: uppercase;
+}
+
+th, td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-image: url(questionBox.gif);
+
+}
+
+.jazz-footer{
+  text-align: center;
+  margin-top: auto;
+  color: rgb(67, 67, 67);
+  font-size: 10px;
+  padding: 10px;
+}
+
+td:hover{
+  cursor: pointer;
+  color: rgb(104, 172, 41);
+}
+
+td.green {
+
+  color: rgb(104, 172, 41);
+
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#projectsLink:hover {
+  color: #e5e5e5;
+  box-shadow: inset 100px 0 0 0 green;
+  }
+
+  #projectsLink {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .4s ease-in-out, box-shadow .5s ease-in-out;
+    box-shadow: inset 0 0 0 0 #000000;
+  }
+
+  .buttons {
+    /* position: absolute; */
+    font-size: x-large;
+    display: absolute;
+    flex-direction: column;
+    top: px;
+    right: px;
+    align-items: center;
+    justify-content: center;
+    padding: px;
+    font-family: sleekFont2;
+    list-style: none;
+    color: #000000;
+    }
+
+    #buttonsAndLinks {
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      }
+
+      .arrows {
+        font-family: myFont3;
+        font-size: 25px;
+        line-height: 7px;
+        display: block;
+        padding-right: 10px;
+        flex-direction: column;
+        color: black;
+      }
